@@ -35,36 +35,33 @@ Marks the completion of a full cycle, ready for restarting to enhance system acc
 
 The project leverages the following technologies:
 
-Data Ingestion: Apache Kafka
-ETL Processing: Apache Airflow
-Database: PostgreSQL
-Machine Learning: Scikit-Learn, TensorFlow, Keras
-API Framework: Flask
-Security: HashiCorp Vault
-Visualization: Tableau, Streamlit
+-Data Ingestion: Apache Kafka
+-ETL Processing: Apache Airflow
+-Database: PostgreSQL
+-Machine Learning: Scikit-Learn, TensorFlow, Keras
+-API Framework: Flask
+-Security: HashiCorp Vault
+-Visualization: Tableau, Streamlit
 
 ### Installation and Setup
 
 #### Prerequisites
-Python 3.8+
-Docker (for running Kafka, Airflow, and PostgreSQL)
-PostgreSQL
-Virtual Environment (recommended)
+Python 3.8+, Docker (for running Kafka, Airflow, and PostgreSQL), PostgreSQL, Virtual Environment (recommended)
 
 ### Usage
-Ingest healthcare data using Kafka.
-Monitor ETL pipeline via Apache Airflow.
-Train and evaluate models with Scikit-Learn/TensorFlow/Keras.
-Access APIs for data and predictions using Flask.
-Visualize insights with Tableau or Streamlit dashboards.
-Contribution Guidelines
-Contributions are welcome! Please follow these steps:
+-Ingest healthcare data using Kafka.
+-Monitor ETL pipeline via Apache Airflow.
+-Train and evaluate models with Scikit-Learn/TensorFlow/Keras.
+-Access APIs for data and predictions using Flask.
+-Visualize insights with Tableau or Streamlit dashboards.
+-Contribution Guidelines
+-Contributions are welcome! Please follow these steps:
 
 ### Fork the repository.
-Create a feature branch: git checkout -b feature-name
-Commit changes: git commit -m "Added feature XYZ"
-Push the branch: git push origin feature-name
-Open a pull request.
+-Create a feature branch: git checkout -b feature-name
+-Commit changes: git commit -m "Added feature XYZ"
+-Push the branch: git push origin feature-name
+-Open a pull request.
 
 ### License
 This project is licensed under the MIT License.
